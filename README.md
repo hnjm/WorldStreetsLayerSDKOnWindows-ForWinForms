@@ -8,7 +8,7 @@ This project requires a full or evaluation version of Map Suite WinForms Edition
 
 This sample passed on Linux with Mono Runtime. On Windows platform, it is required to replace the ThinkGeo.MapSuite.Layers.SqliteForLinux with ThinkGeo.MapSuite.Layers.Sqlite package.
 
-**To run the sample, please unzip the database file at WorldStreetsVectorLayerSample/App_Data/DallasCounty-3857-20170218.zip, and change the connection string in WorldStreetsVectorLayerSample/App.config to connect database that you extracted to.**
+**To run the sample, please unzip the database file at WorldStreetsLayerSample/App_Data/DallasCounty-3857-20170218.zip, and change the connection string in WorldStreetsLayerSample/App.config to connect database that you extracted to.**
 
 Working...
 
