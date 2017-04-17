@@ -1,4 +1,4 @@
-# World Streets LayerSDK On Windows for WinForms
+# World Streets Layer SDK On Windows for WinForms
 
 ### Description
 
