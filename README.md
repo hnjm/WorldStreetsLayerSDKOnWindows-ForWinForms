@@ -22,9 +22,23 @@ This sample makes use of the following NuGet Packages
 [MapSuite 10.0.0](https://www.nuget.org/packages?q=ThinkGeo)
 
 ### About the Code
+```csharp
+public class ImageryOptimizedWorldStreetsVectorLayer : WorldStreetsLayer
+{
+    protected override PointStyle GetImagePointStyle(string filename)
+    {
+        PointStyle background = new PointStyle(PointSymbolType.Circle, new GeoSolidBrush(GeoColors.White), new GeoPen(GeoColors.SlateGray, 1), 20);
+        background.CustomPointStyles.Add(new PointStyle()
+        {
+            PointType = PointType.Bitmap,
+            Image = new GeoImage(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Icons", filename)),
+            DrawingLevel = DrawingLevel.LabelLevel
+        });
 
-Working...
-
+        return background;
+    }
+}
+```
 ### Getting Help
 
 [Map Suite Desktop for Winforms Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_desktop_for_winforms)
@@ -38,7 +52,13 @@ Working...
 ### Key APIs
 This example makes use of the following APIs:
 
-Working...
+- [ThinkGeo.MapSuite.Styles.PointStyle](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.styles.pointstyle)
+- [ThinkGeo.MapSuite.Styles.PointSymbolType](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.styles.pointsymboltype)
+- [ThinkGeo.MapSuite.Drawing.GeoSolidBrush](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.drawing.geosolidbrush)
+- [ThinkGeo.MapSuite.Drawing.GeoPen](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.drawing.geopen)
+- [ThinkGeo.MapSuite.Styles.PointType](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.styles.pointtype)
+- [ThinkGeo.MapSuite.Drawing.GeoImage](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.drawing.geoimage)
+- [ThinkGeo.MapSuite.Drawing.DrawingLevel](http://wiki.thinkgeo.com/wiki/api/thinkgeo.mapsuite.drawing.drawinglevel)
 
 ### About Map Suite
 Map Suite is a set of powerful development components and services for the .Net Framework.
