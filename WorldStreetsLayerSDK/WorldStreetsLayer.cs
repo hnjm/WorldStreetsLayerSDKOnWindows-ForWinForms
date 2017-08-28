@@ -1788,9 +1788,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("3", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("4", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("5", new Collection<Style> () { bridgeOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             ValueStyle tunnelOutline = new ValueStyle("highway", new Collection<ValueItem>() {
                 new ValueItem ("motorway", GetTunnelLineStyle (motorwayOutlineWidth)),
@@ -1816,9 +1817,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("-3", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-4", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-5", new Collection<Style> () { tunnelOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             styles.Styles.Add(tunnel);
             styles.Styles.Add(outline);
@@ -2028,9 +2030,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("3", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("4", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("5", new Collection<Style> () { bridgeOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             ValueStyle tunnelOutline = new ValueStyle("highway", new Collection<ValueItem>() {
                 new ValueItem ("motorway", GetTunnelLineStyle (motorwayOutlineWidth)),
@@ -2056,9 +2059,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("-3", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-4", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-5", new Collection<Style> () { tunnelOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             styles.Styles.Add(tunnel);
             styles.Styles.Add(outline);
@@ -2272,9 +2276,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("3", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("4", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("5", new Collection<Style> () { bridgeOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             ValueStyle tunnelOutline = new ValueStyle("highway", new Collection<ValueItem>() {
                 new ValueItem ("motorway", GetTunnelLineStyle (motorwayOutlineWidth)),
@@ -2300,9 +2305,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("-3", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-4", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-5", new Collection<Style> () { tunnelOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             styles.Styles.Add(tunnel);
             styles.Styles.Add(outline);
@@ -2515,9 +2521,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("3", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("4", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("5", new Collection<Style> () { bridgeOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             ValueStyle tunnelOutline = new ValueStyle("highway", new Collection<ValueItem>() {
                 new ValueItem ("motorway", GetTunnelLineStyle (motorwayOutlineWidth)),
@@ -2543,9 +2550,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("-3", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-4", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-5", new Collection<Style> () { tunnelOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             styles.Styles.Add(tunnel);
             styles.Styles.Add(outline);
@@ -2759,9 +2767,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("3", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("4", new Collection<Style> () { bridgeOutline, fill }),
                         new ValueItem ("5", new Collection<Style> () { bridgeOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             ValueStyle tunnelOutline = new ValueStyle("highway", new Collection<ValueItem>() {
                 new ValueItem ("motorway", GetTunnelLineStyle (motorwayOutlineWidth)),
@@ -2787,9 +2796,10 @@ namespace ThinkGeo.MapSuite.Layers
                         new ValueItem ("-3", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-4", new Collection<Style> () { tunnelOutline, fill }),
                         new ValueItem ("-5", new Collection<Style> () { tunnelOutline, fill })
-                    })
+                    }){ DrawingOrder =  ValueDrawingOrder.OrderByValueItems }
                 })
-            });
+            })
+            { DrawingOrder = ValueDrawingOrder.OrderByValueItems };
 
             styles.Styles.Add(tunnel);
             styles.Styles.Add(outline);
