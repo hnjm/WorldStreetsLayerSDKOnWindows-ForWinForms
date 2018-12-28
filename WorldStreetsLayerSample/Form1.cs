@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using System.Windows.Forms;
-using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
-using ThinkGeo.MapSuite.Layers;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.WinForms;
 
